@@ -58,7 +58,7 @@ class App extends Component {
         />
         <Layout>
           <h1 className='app__title'>
-            React Grocery Store
+            React Greengrocery
           </h1>
           <Catalog
             products={this.state.products}
