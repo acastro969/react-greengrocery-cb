@@ -1,0 +1,30 @@
+.navbar {
+  background-color: yellowgreen;
+
+  .navbar__list {
+    padding: 12px 32px;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar__link {
+      position: relative;
+
+      .link {
+        transition: all 0.1s;
+        border-radius: 8px;
+        padding: 8px;
+        display: flex;
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+
+        &:hover {
+          background-color: forestgreen;
+        }
+      }
+    }
+  }
+}

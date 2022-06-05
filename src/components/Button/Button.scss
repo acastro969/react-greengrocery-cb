@@ -1,0 +1,22 @@
+.button {
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 8px;
+  font-weight: bold;
+  background-color: yellowgreen;
+  cursor: pointer;
+  margin-bottom: 8px;
+
+  &:hover {
+    background-color: forestgreen;
+  }
+
+  &--secondary {
+    background-color: orangered;
+
+    &:hover {
+      background-color: red;
+    }
+  }
+}

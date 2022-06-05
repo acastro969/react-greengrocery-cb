@@ -1,0 +1,36 @@
+.product {
+    border-top: 2px solid gainsboro;
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid gainsboro;
+    border-radius: 4px;
+    background-color: white;
+
+    .product__image {
+        display: flex;
+        align-items: center;
+        background-color: whitesmoke;
+        padding: 32px 48px;
+        min-height: 120px;
+    }
+
+    .product__details {
+        padding: 0 18px;
+
+        .product__title {
+            color: yellowgreen;
+            margin-top: 4px;
+            margin-bottom: 24px;
+        }
+
+        .product__price {
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+
+        .product__buttons {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
