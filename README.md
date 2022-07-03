@@ -1,2 +1,3 @@
 # React Greengrocery
-A simple react app simulating an online store with a functional shopping cart. Made as a React Class based Components exercise.
+Simple class based components demo.
+Refer to: https://github.com/acastro969/react-greengrocery-fc for the complete React Greengrocery project.
